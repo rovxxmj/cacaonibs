@@ -39,7 +39,12 @@ export const fetchMyProfile = () => {
   return axiosInstance.get("/api/users/me");
 };
 
-export const login = (body: IUser) => {
+interface IBody {
+  email: string;
+  // password: string;
+}
+
+export const login = (body: IBody) => {
   return axiosInstance.post("/api/users/login", body);
 };
 

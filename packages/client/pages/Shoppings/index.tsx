@@ -4,13 +4,13 @@ import styled from "@emotion/styled";
 import TopNavigation from "@components/TopNavigation";
 import BottomNavigation from "@components/BottomNavigation";
 
-const SeeMore = () => {
+const Shoppings = () => {
   return (
     <>
-      <TopNavigation title={"더보기"} />
-      <BottomNavigation page={"more"} />
+      <TopNavigation title={"쇼핑"} />
+      <BottomNavigation page={"shoppings"} />
     </>
   );
 };
 
-export default SeeMore;
+export default Shoppings;

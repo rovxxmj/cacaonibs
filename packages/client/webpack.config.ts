@@ -25,6 +25,7 @@ const config: Configuration = {
       "@utils": path.resolve(__dirname, "utils"),
       "@typings": path.resolve(__dirname, "typings"),
       "@themes": path.resolve(__dirname, "themes"),
+      "@apis": path.resolve(__dirname, "apis"),
     },
   },
   entry: {
