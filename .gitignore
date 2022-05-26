@@ -1,0 +1,7 @@
+.idea
+packages/client/node_modules
+packages/client/.DS_Store
+packages/server/node_modules
+packages/server/.env
+packages/server/.gitignore
+
